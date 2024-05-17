@@ -1,4 +1,7 @@
-const ourTours = [
+// images
+
+// Tours
+export const ourTours = [
   {
     id: 1,
     image: "image_1",
@@ -40,5 +43,25 @@ const ourTours = [
     title: "Test",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
+  },
+];
+
+// Navbar Links
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];

@@ -2,7 +2,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import ourTours from "../constants/Tours";
+import { ourTours } from "../constants";
 
 const CarouselGallery = () => {
   const responsive = {
