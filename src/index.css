@@ -13,6 +13,13 @@ body {
     margin: 1rem 5rem;
 }
 
+@media screen and (max-width:600px) {
+    body {
+        margin: 1rem 3rem;
+    }
+
+}
+
 .openMenu {
     display: flex;
     flex-direction: column;
