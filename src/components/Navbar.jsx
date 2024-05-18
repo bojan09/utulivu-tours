@@ -20,11 +20,11 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     // NavbarContainer
-    <div className="flex justify-between items-center mb-[5rem] mx-[-1.5rem]">
+    <div className="flex justify-between items-center mb-[5rem] mx-[-1.5rem] z-10">
       {/* Logo */}
       <div>
         <a
-          className="fixed sm:top-9 sm:left-5 md:left-9 md:top-6 tracking-wide font-[500] text-xl"
+          className="fixed sm:top-9 sm:left-5 md:left-9 md:top-6 tracking-wide font-[500] text-xl z-10"
           href="/"
         >
           Utulivu Tours
@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
 
       {/* NavLinks */}
-      <ul className="sm:hidden md:flex gap-3 pt-4 fixed md:top-4 right-14">
+      <ul className="sm:hidden md:flex gap-3 pt-4 fixed md:top-4 right-14 z-10">
         {navLinks.map((link) => (
           <li
             key={link.id}
