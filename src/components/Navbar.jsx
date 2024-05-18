@@ -5,10 +5,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // assets
-import menu from "../../assets/menu.png";
-import close from "../../assets/close.png";
+import menu from "../assets/menu.png";
+import close from "../assets/close.png";
 
-import { navLinks } from "../../constants";
+import { navLinks } from "../constants";
 
 AOS.init({
   duration: 1000,
@@ -19,11 +19,12 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="flex justify-between items-center sm:mb-[5rem] md:mb-[2rem] mx-[-1.5rem]">
+    // NavbarContainer
+    <div className="flex justify-between items-center mb-[5rem] mx-[-1.5rem]">
       {/* Logo */}
       <div>
         <a
-          className="fixed sm:8 md:top-6 tracking-wide font-[500] text-xl"
+          className="fixed sm:top-9 md:top-6 tracking-wide font-[500] text-xl"
           href="/"
         >
           Utulivu Tours
@@ -31,13 +32,13 @@ const Navbar = () => {
       </div>
 
       {/* NavLinks */}
-      <ul className="sm:hidden md:flex gap-3 pt-4 ">
+      <ul className="sm:hidden md:flex gap-3 pt-4 fixed md:top-4 right-14">
         {navLinks.map((link) => (
           <li
             key={link.id}
             className={`${
-              active === link.title ? "text-blue-300" : "text-secondary"
-            } hover:text-blue-300 text-[18px] font-medium cursor-pointer`}
+              active === link.title ? "activeLink" : "text-secondary"
+            } hover:text-blue-300 text-[18px] font-medium cursor-pointer py-1 px-[6px] `}
             onClick={() => setActive(link.title)}
           >
             <a href={`#${link.id}`}>{link.title}</a>

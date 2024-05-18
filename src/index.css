@@ -26,3 +26,9 @@ body {
     justify-content: center;
     gap: 3px;
 }
+
+.activeLink {
+    color: #fff;
+    background-color: rgb(106, 106, 193);
+    border-radius: 2rem;
+}
