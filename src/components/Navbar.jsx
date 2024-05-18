@@ -24,7 +24,7 @@ const Navbar = () => {
       {/* Logo */}
       <div>
         <a
-          className="fixed sm:top-9 md:top-6 tracking-wide font-[500] text-xl"
+          className="fixed sm:top-9 sm:left-5 md:left-9 md:top-6 tracking-wide font-[500] text-xl"
           href="/"
         >
           Utulivu Tours
