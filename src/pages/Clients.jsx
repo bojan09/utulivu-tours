@@ -1,7 +1,7 @@
 import React from "react";
 
 const Clients = () => {
-  return <div>Clients</div>;
+  return <section id="clients">Clients</section>;
 };
 
 export default Clients;

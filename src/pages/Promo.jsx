@@ -1,7 +1,7 @@
 import React from "react";
 
 const Promo = () => {
-  return <div>Promo</div>;
+  return <section id="promo">Promo</section>;
 };
 
 export default Promo;

@@ -49,16 +49,24 @@ export const ourTours = [
 // Navbar Links
 export const navLinks = [
   {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "tours",
+    title: "Tours",
+  },
+  {
+    id: "promo",
+    title: "Promo",
+  },
+  {
     id: "about",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "projects",
-    title: "Projects",
+    id: "clients",
+    title: "Clients",
   },
   {
     id: "contact",
