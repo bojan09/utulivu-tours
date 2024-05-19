@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 // assets
 import menu from "../assets/menu.png";
 import close from "../assets/close.png";
+import logo from "../assets/logo.png";
 
 import { navLinks } from "../constants";
 
@@ -20,14 +21,14 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     // NavbarContainer
-    <div className="flex justify-between items-center mb-[5rem] mx-[-1.5rem] z-10">
+    <div className="flex justify-between items-center mb-[5rem] mx-[-1.5rem] z-10 ">
       {/* Logo */}
       <div>
         <a
-          className="fixed sm:top-9 sm:left-5 md:left-9 md:top-6 tracking-wide font-[500] text-xl z-10"
+          className="fixed top-9 left-5 md:left-12 md:top-3 tracking-wide font-[500] text-xl z-10 "
           href="/"
         >
-          Utulivu Tours
+          <img className="w-[3.8rem]" src={logo} alt="logo" />
         </a>
       </div>
 
