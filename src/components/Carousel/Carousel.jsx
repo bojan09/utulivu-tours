@@ -2,7 +2,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { ourTours } from "../constants";
+import { ourTours } from "../../constants";
 
 const CarouselGallery = () => {
   const responsive = {
@@ -26,12 +26,9 @@ const CarouselGallery = () => {
   };
 
   return (
-    <div id="projects" className="my-[5rem]" data-aos="fade-down">
-      <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor">
-        Our projects
-      </h1>
-
-      <div data-aos="fade-left">
+    <div id="tours" className="carousel-tours__container">
+      <h1 className="heading-primary">Tours we offer</h1>
+      <div>
         <Carousel
           swipeable={true}
           draggable={false}
@@ -45,25 +42,15 @@ const CarouselGallery = () => {
           className="carousel"
           responsive={responsive}
         >
-          {ourTours.map((project) => (
-            <div key={project.id} className="w-full p-4 md:pl-[2.3rem]">
+          {ourTours.map((tour) => (
+            <div key={tour.id} className="carousel-tour__container">
               <img
-                src={project.image}
-                alt="projectImages"
-                className="w-[400px] h-[400px] rounded-xl object-center object-fill"
+                src={tour.image}
+                alt="tourImage"
+                className="carousel-tour__image"
               />
-              <h1
-                className="text-center my-5 font-rufina font-bold text-2xl text-textColor"
-                data-aos="fade-right"
-              >
-                {project.title}
-              </h1>
-              <p
-                className="text-center font-oxygen text-lg text-textColor pr-2"
-                data-aos="fade-up"
-              >
-                {project.description}
-              </p>
+              <h1 className="carousel-tour__heading">{tour.title}</h1>
+              <p className="carousel-tour__description">{tour.description}</p>
             </div>
           ))}
         </Carousel>

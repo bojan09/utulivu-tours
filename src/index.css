@@ -8,19 +8,6 @@
     box-sizing: border-box;
 }
 
-
-body {
-    margin: 1rem 5rem;
-    position: relative;
-}
-
-@media screen and (max-width:600px) {
-    body {
-        margin: 1rem 2rem;
-    }
-
-}
-
 .openMenu {
     display: flex;
     flex-direction: column;
