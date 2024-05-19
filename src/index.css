@@ -2,28 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* colors */
+:root {
+    --color-one: #8ecae6;
+    --color-one: #0077b6;
+    --color-one: #90e0ef;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.openMenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3px;
-}
-
-.activeLink {
-    color: #fff;
-    background-color: rgb(106, 106, 193);
-    border-radius: 2rem;
-}
-
-.homeBackground {
-    background-image: url(./assets/test.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 3rem;
 }

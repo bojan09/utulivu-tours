@@ -1,0 +1,6 @@
+.homeBackground {
+    background-image: url(./assets/test.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+}
