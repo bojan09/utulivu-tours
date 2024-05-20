@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import { ourTours } from "../../constants";
 
-const CarouselGallery = () => {
+const ToursCarousel = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -30,16 +30,18 @@ const CarouselGallery = () => {
       <h1 className="heading-primary">Tours we offer</h1>
       <div>
         <Carousel
+          arrows={false}
           swipeable={true}
           draggable={false}
+          showDots={false}
           infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={4000}
+          customTransition="transform 600ms ease-in-out"
+          transitionDuration={300}
           keyBoardControl={true}
-          customTransition="all .8"
-          transitionDuration={500}
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
           className="carousel"
+          dotListClass="custom-dot-list-style"
           responsive={responsive}
         >
           {ourTours.map((tour) => (
@@ -58,4 +60,4 @@ const CarouselGallery = () => {
     </div>
   );
 };
-export default CarouselGallery;
+export default ToursCarousel;

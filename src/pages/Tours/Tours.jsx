@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Carousel } from "../../components";
+import { ToursCarousel } from "../../components";
 
 const Tours = () => {
   return (
     <section id="tours" className="tours-container">
-      <Carousel />
+      <ToursCarousel />
     </section>
   );
 };

@@ -20,8 +20,8 @@ const Navbar = () => {
         </a>
         <nav className="nav-links__container">
           {navLinks.map((link) => (
-            <ul className="nav-links" key={link.id}>
-              <li>
+            <ul className="nav-links">
+              <li key={link.id}>
                 <a className="nav-link" href={`#${link.id}`}>
                   {link.title}
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
           />
           <ul className={`${!toggle ? "hidden" : "openMenu"} `}>
             {navLinks.map((link) => (
-              <li>
+              <li key={link.id}>
                 <a className="nav-link" href={`#${link.id}`}>
                   {link.title}
                 </a>
