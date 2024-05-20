@@ -10,25 +10,19 @@ import { close } from "../../assets";
 import { navLinks } from "../../constants";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
   return (
     <div className="navbar-container">
-      <div className="desktop-navbar sm:hidden">
+      <div className="desktop-navbar">
         <div className="logo">
           <img src={logo} alt="logo-img" className="logo-image" />
         </div>
         <nav className="nav-links__container">
           {navLinks.map((link) => (
             <ul className="nav-links" key={link.id}>
-              <li
-                className={`${
-                  active === link.title ? "active-link" : "inactive-link"
-                }`}
-                onClick={() => setActive(link.title)}
-              >
-                <a className="nav-link " href={`#${link.id}`}>
+              <li>
+                <a className="nav-link" href={`#${link.id}`}>
                   {link.title}
                 </a>
               </li>
@@ -51,16 +45,7 @@ const Navbar = () => {
           />
           <ul className={`${!toggle ? "hidden" : "openMenu"} `}>
             {navLinks.map((link) => (
-              <li
-                key={link.id}
-                className={`${
-                  active === link.title ? "active-link" : "inactive-link"
-                } nav-links`}
-                onClick={() => {
-                  setActive(link.title);
-                  setToggle(!toggle);
-                }}
-              >
+              <li>
                 <a className="nav-link" href={`#${link.id}`}>
                   {link.title}
                 </a>

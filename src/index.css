@@ -6,8 +6,8 @@
 /* colors */
 :root {
     --color-one: #8ecae6;
-    --color-one: #0077b6;
-    --color-one: #90e0ef;
+    --color-two: #0077b6;
+    --color-three: #90e0ef;
 }
 
 * {
