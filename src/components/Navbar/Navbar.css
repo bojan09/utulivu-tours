@@ -9,7 +9,7 @@
 }
 
 .logo {
-    width: 90px;
+    width: 150px;
     height: auto;
     padding: 1rem;
 }
@@ -55,7 +55,7 @@
     }
 
     .logo {
-        width: 150px;
+        width: 250px;
     }
 
     .desktop-navbar {
@@ -67,7 +67,7 @@
         display: flex;
         justify-content: center;
         align-items: start;
-        padding-top: 2.6rem;
+        padding: 2rem 0 1rem 0;
     }
 
     .nav-links {

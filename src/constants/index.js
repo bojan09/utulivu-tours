@@ -1,5 +1,5 @@
 // images
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-v2.png";
 
 // Tours
 export const ourTours = [
