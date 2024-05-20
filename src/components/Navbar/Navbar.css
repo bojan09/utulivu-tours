@@ -4,12 +4,11 @@
 
 .mobile-navbar {
     position: relative;
-    padding-bottom: 1rem;
     background-color: hsl(210, 66%, 98%);
 }
 
 .logo {
-    width: 150px;
+    max-width: 250px;
     height: auto;
     padding: 1rem;
 }
@@ -46,16 +45,17 @@
     place-items: end;
     gap: 3px;
     margin-right: 1.7rem;
+    padding-bottom: 1rem;
 }
 
 /* Desktop */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .mobile-navbar {
         display: none;
     }
 
     .logo {
-        width: 250px;
+        max-width: 280px;
     }
 
     .desktop-navbar {
@@ -66,8 +66,8 @@
     .nav-links__container {
         display: flex;
         justify-content: center;
-        align-items: start;
-        padding: 2rem 0 1rem 0;
+        align-items: center;
+        max-width: 50%;
     }
 
     .nav-links {
