@@ -15,9 +15,9 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="desktop-navbar">
-        <div className="logo">
+        <a href="/" className="logo">
           <img src={logo} alt="logo-img" className="logo-image" />
-        </div>
+        </a>
         <nav className="nav-links__container">
           {navLinks.map((link) => (
             <ul className="nav-links" key={link.id}>
