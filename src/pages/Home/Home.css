@@ -3,8 +3,10 @@
   width: 100%;
 }
 
-.home-left {
-  width: 50%;
+.home__heading {
+  font-size: 32px;
+  margin-left: 2rem;
+  width: 12ch;
 }
 
 .home-right {

@@ -10,13 +10,18 @@ const Home = () => {
     <section id="home" className="home">
       <div className="home-container">
         <div className="home-left">
-          <h1>Experience Zanzibar like never before and get a better taste</h1>
-          <p>
-            Whether you're seeking a thrilling safari in the heart of Africa, a
-            serene beach getaway, or a deep dive into local traditions, our
-            dedicated team is here to make your dream vacation a reality.
-          </p>
-          <button>Book now</button>
+          <div className="text-container">
+            <h1 className="home__heading">
+              Experience <b>Zanzibar</b>, where pristine beaches and rich
+              cultural heritage await to enchant your senses.
+            </h1>
+            <p className="home__paragarph">
+              Whether you're seeking a thrilling safari in the heart of Africa,
+              a serene beach getaway, or a deep dive into local traditions, our
+              dedicated team is here to make your dream vacation a reality.
+            </p>
+            <button>Book now</button>
+          </div>
         </div>
         <div className="home-right">
           <img className="home-img" src={home_img__1} alt="home_img_1" />
