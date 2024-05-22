@@ -19,9 +19,7 @@ const Home = () => {
             serene beach getaway, or a deep dive into local traditions, our
             dedicated team is here to make your dream vacation a reality.
           </p>
-          <button c lassName="home__button button">
-            Book now
-          </button>
+          <button className="home__button button">Book now</button>
         </div>
         <div className="home-right">
           <img

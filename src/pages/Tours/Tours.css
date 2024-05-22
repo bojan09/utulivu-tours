@@ -1,0 +1,12 @@
+.tours-container {
+  text-align: center;
+}
+
+.tours__heading {
+  font-size: 1.65rem;
+  margin: 0 0.7rem 1rem 0.7rem;
+  font-weight: 500;
+}
+
+.tours-container__carousel {
+}

@@ -26,8 +26,7 @@ const ToursCarousel = () => {
   };
 
   return (
-    <div id="tours" className="carousel-tours__container">
-      <h1 className="heading-primary">Tours we offer</h1>
+    <div id="tours" className="carousel-tours">
       <div>
         <Carousel
           arrows={false}
