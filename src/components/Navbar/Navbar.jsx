@@ -2,9 +2,7 @@ import "./Navbar.css";
 import { useState } from "react";
 
 // assets
-import logo from "../../assets/logo-v2.png";
-import menu from "../../assets/menu.png";
-import { close } from "../../assets";
+import { close, menu, logo } from "../../assets";
 
 // nav-links
 import { navLinks } from "../../constants";

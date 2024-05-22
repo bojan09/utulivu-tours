@@ -2,17 +2,15 @@ import React from "react";
 import "./Home.css";
 
 // assets
-import home_img__1 from "../../assets/home_img__1.jpg";
-import home_img__2 from "../../assets/home_img__2.jpg";
-
+import { home_img__1, home_img__2 } from "../../assets";
 const Home = () => {
   return (
     <section id="home" className="home">
       <div className="home-container">
         <div className="home-left">
           <h1 className="home__heading">
-            Experience <b>Zanzibar</b> where pristine beaches and rich cultural
-            heritage await to enchant your senses.
+            Experience <b>Zanzibar</b> where beaches and rich cultural heritage
+            await to enchant your senses.
           </h1>
           <p className="home__paragarph">
             Whether you're seeking a thrilling safari in the heart of Africa, a

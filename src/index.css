@@ -37,11 +37,11 @@ section {
 .button {
   background-color: var(--clr--btn-primary);
   color: #fff;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   margin-bottom: 3rem;
-  width: 190px;
-  height: 45px;
+  min-width: 14rem;
+  min-height: 3.2rem;
   border-radius: 1.2rem;
 }
 
