@@ -1,17 +1,32 @@
 .home-container {
   min-height: 80vh;
-  width: 100%;
+  max-width: 100%;
+}
+
+.home-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  margin-left: 4rem;
 }
 
 .home__heading {
   font-size: 32px;
-  margin-left: 2rem;
-  width: 12ch;
+  width: 13ch;
+  margin-left: -3.5rem;
+  margin-top: 3rem;
+}
+
+.home__paragarph {
+  font-size: 18.4px;
+  width: 32ch;
+  margin: 1rem 0;
 }
 
 .home-right {
-  width: 50%;
-}
-
-.home-img {
+  display: none;
 }
