@@ -1,0 +1,24 @@
+.carousel__container {
+  text-align: start;
+  max-width: 390px;
+  height: 495px;
+  margin: 0 auto;
+  background-color: var(--clr-bg-secondary-dark);
+  border-radius: 1rem;
+}
+
+.carousel-tour__image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.carousel-tour__heading {
+  font-size: 32px;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.carousel-tour__description {
+  font-size: 21px;
+  padding: 0 1rem;
+  margin-top: 1.5rem;
+}

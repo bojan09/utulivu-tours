@@ -1,6 +1,10 @@
+import "./ToursCarousel.css";
+
 // react-carousel
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
+import { Link } from "react-router-dom";
 
 import { ourTours } from "../../constants";
 
@@ -44,14 +48,16 @@ const ToursCarousel = () => {
           responsive={responsive}
         >
           {ourTours.map((tour) => (
-            <div key={tour.id} className="carousel-tour__container">
-              <img
-                src={tour.image}
-                alt="tourImage"
-                className="carousel-tour__image"
-              />
-              <h1 className="carousel-tour__heading">{tour.title}</h1>
-              <p className="carousel-tour__description">{tour.description}</p>
+            <div key={tour.id} className="carousel__container">
+              <Link to="/tours">
+                <img
+                  src={tour.image}
+                  alt="tourImage"
+                  className="carousel-tour__image"
+                />
+                <h1 className="carousel-tour__heading">{tour.title}</h1>
+                <p className="carousel-tour__description">{tour.description}</p>
+              </Link>
             </div>
           ))}
         </Carousel>
