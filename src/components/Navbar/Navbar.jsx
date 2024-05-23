@@ -5,7 +5,7 @@ import { useState } from "react";
 import { close, menu, logo } from "../../assets";
 
 // nav-links
-import { navLinks } from "../../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,21 +17,50 @@ const Navbar = () => {
           <img src={logo} alt="logo-img" className="logo-image" />
         </a>
         <nav className="nav-links__container">
-          {navLinks.map((link) => (
-            <ul className="nav-links">
-              <li key={link.id}>
-                <a className="nav-link" href={`#${link.id}`}>
-                  {link.title}
-                </a>
-              </li>
-            </ul>
-          ))}
+          <ul className="nav-links">
+            <li>
+              <a className="nav-link" href="/">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#tours">
+                Tours
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#promo">
+                Promo
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#about">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#clients">
+                Clients
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="/#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
 
       <div className="mobile-navbar">
         <div className="logo">
-          <img src={logo} alt="logo-img" className="logo-image" />
+          <Link to="/">
+            <img src={logo} alt="logo-img" className="logo-image" />
+          </Link>
         </div>
 
         <nav className="nav-links__container">
@@ -42,13 +71,40 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <ul className={`${!toggle ? "hidden" : "openMenu"} `}>
-            {navLinks.map((link) => (
-              <li key={link.id}>
-                <a className="nav-link" href={`#${link.id}`}>
-                  {link.title}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a className="nav-link" href="/">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#tours">
+                Tours
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#promo">
+                Promo
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#about">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a className="nav-link" href="/#clients">
+                Clients
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="/#contact">
+                Contact
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

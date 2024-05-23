@@ -1,20 +1,30 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // pages
-import { Home, Tours, Promo, Clients, About, Contact } from "./pages";
+import { Home } from "./pages";
 
 // components
-import { Navbar, Footer } from "./components";
+import { Navbar, Footer, TourComponent } from "./components";
+
+import { ourTours } from "./constants";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
-      <Tours />
-      <Promo />
-      <Clients />
-      <About />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          {ourTours.map((tour) => (
+            <Route
+              key={tour.id}
+              path={`/tour/${tour.link}`}
+              element={<TourComponent key={tour.id} tours={ourTours} />}
+            />
+          ))}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 };

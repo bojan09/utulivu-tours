@@ -49,7 +49,7 @@ const ToursCarousel = () => {
         >
           {ourTours.map((tour) => (
             <div key={tour.id} className="carousel__container">
-              <Link to="/tours">
+              <Link to={`/tour/${tour.link}`}>
                 <img
                   src={tour.image}
                   alt="tourImage"

@@ -1,11 +1,14 @@
 import React from "react";
 import "./Home.css";
 
+// pages
+import { Tours, Promo, About, Clients, Contact } from "../";
+
 // assets
 import { home_img__1, home_img__2 } from "../../assets";
 const Home = () => {
   return (
-    <section id="home" className="home">
+    <section className="home">
       <div className="home-container">
         <div className="home-left">
           <h1 className="home__heading">
@@ -32,6 +35,13 @@ const Home = () => {
           />
         </div>
       </div>
+
+      {/* Pages */}
+      <Tours />
+      <Promo />
+      <About />
+      <Clients />
+      <Contact />
     </section>
   );
 };
