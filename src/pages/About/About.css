@@ -1,0 +1,13 @@
+.about-heading {
+  font-size: 1.65rem;
+  margin: 1rem 0.7rem 4rem 0.7rem;
+  position: relative;
+}
+
+.about-heading__icon-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+}

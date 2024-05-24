@@ -42,9 +42,6 @@ const ToursCarousel = () => {
           autoPlaySpeed={4000}
           customTransition="transform 600ms ease-in-out"
           transitionDuration={300}
-          keyBoardControl={true}
-          className="carousel"
-          dotListClass="custom-dot-list-style"
           responsive={responsive}
         >
           {ourTours.map((tour) => (
@@ -55,7 +52,9 @@ const ToursCarousel = () => {
                   alt="tourImage"
                   className="carousel-tour__image"
                 />
-                <h1 className="carousel-tour__heading">{tour.title}</h1>
+                <h1 className="carousel-tour__heading heading-primary">
+                  {tour.title}
+                </h1>
                 <p className="carousel-tour__description">{tour.description}</p>
               </Link>
             </div>

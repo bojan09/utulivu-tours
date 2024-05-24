@@ -11,3 +11,5 @@ export { default as home_img__2 } from "./home_img__2.jpg";
 export { default as stone__town__1 } from "./destinations-tours/stone__town-1.jpg";
 export { default as stone__town__2 } from "./destinations-tours/stone__town-2.jpg";
 export { default as stone__town__3 } from "./destinations-tours/stone__town-3.jpg";
+
+export { default as heading_icon } from "./heading_icon.png";
