@@ -19,7 +19,7 @@ const App = () => {
             <Route
               key={tour.id}
               path={`/tour/${tour.link}`}
-              element={<TourComponent key={tour.id} tours={ourTours} />}
+              element={<TourComponent key={tour.id} tours={tour} />}
             />
           ))}
         </Routes>

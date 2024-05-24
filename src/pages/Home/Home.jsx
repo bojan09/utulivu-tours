@@ -20,7 +20,9 @@ const Home = () => {
             serene beach getaway, or a deep dive into local traditions, our
             dedicated team is here to make your dream vacation a reality.
           </p>
-          <button className="home__button button">Book now</button>
+          <a href="/#contact">
+            <button className="home__button button">Book now</button>
+          </a>
         </div>
         <div className="home-right">
           <img
