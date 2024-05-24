@@ -23,6 +23,10 @@ const Contact = () => {
 
   return (
     <section id="contact">
+      <h1>
+        Join us for an adventure that promises tranquility, discovery, and
+        lasting memories.
+      </h1>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />

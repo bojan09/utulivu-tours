@@ -2,7 +2,7 @@
   text-align: start;
   max-width: 390px;
   height: 495px;
-  margin: 0 auto;
+  margin: 0 1rem;
   background-color: var(--clr-bg-secondary);
   border-radius: 1rem;
 }
