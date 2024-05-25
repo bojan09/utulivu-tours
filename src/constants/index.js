@@ -1,7 +1,15 @@
 // images
 
 // destination images
-import { stone__town__1, stone__town__2, stone__town__3 } from "../assets";
+import {
+  client__1,
+  client__2,
+  client__3,
+  client__4,
+  stone__town__1,
+  stone__town__2,
+  stone__town__3,
+} from "../assets";
 
 // Tours
 export const ourTours = [
@@ -41,5 +49,33 @@ export const ourTours = [
     title: "Mnemba Atoll",
     description: "A marine conservation area perfect for underwater adventures",
     link: "mnemba-atoll",
+  },
+];
+
+// clients
+export const ourClients = [
+  {
+    id: 1,
+    name: "Jane",
+    description: "Lorem Ipsum Dolorem. One, two, three.",
+    image: client__1,
+  },
+  {
+    id: 2,
+    name: "Maricelle",
+    description: "Lorem Ipsum Dolorem. One, two, three.",
+    image: client__2,
+  },
+  {
+    id: 3,
+    name: "Victoria",
+    description: "Lorem Ipsum Dolorem. One, two, three.",
+    image: client__3,
+  },
+  {
+    id: 4,
+    name: "Sharon",
+    description: "Lorem Ipsum Dolorem. One, two, three.",
+    image: client__4,
   },
 ];

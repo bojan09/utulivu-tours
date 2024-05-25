@@ -1,4 +1,5 @@
 import React from "react";
+import "./TourComponent.css";
 
 const TourComponent = ({ tours }) => {
   return (
