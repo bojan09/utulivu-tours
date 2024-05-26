@@ -25,18 +25,23 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h1>
+      <h1 className="contact-heading">
         Join us for an adventure that promises tranquility, discovery, and
         lasting memories.
       </h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+      <form className="contact-container" ref={form} onSubmit={sendEmail}>
+        <h1 className="contact-container__heading">Contact us</h1>
+        <label className="contact-name__label">Name</label>
+        <input className="contact-name__input" type="text" name="user_name" />
+        <label className="contact-email__label">Email</label>
+        <input
+          className="contact-email__input"
+          type="email"
+          name="user_email"
+        />
+        <label className="contact-message__label">Message</label>
+        <textarea className="contact-message__textarea" name="message" />
+        <input className="contact-button" type="submit" value="Send" />
       </form>
     </section>
   );
