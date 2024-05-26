@@ -18,7 +18,7 @@
 .client__img {
   width: 8rem;
   height: 8rem;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   border-radius: 50%;
 }
