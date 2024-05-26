@@ -1,7 +1,8 @@
 // navbar
 export { default as menu } from "./menu.png";
 export { default as close } from "./close.png";
-export { default as logo } from "./logo-v2.png";
+export { default as logo1 } from "./logo-v2.png";
+export { default as logo } from "./logo-v3.png";
 
 // home section images
 export { default as home_img__1 } from "./home_img__1.jpg";

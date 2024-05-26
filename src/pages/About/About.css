@@ -1,13 +1,18 @@
 .about-heading {
   font-size: 1.65rem;
-  margin: 1rem 0.7rem 1.9rem 0.7rem;
   text-align: center;
+  background-color: var(--clr-bg-tertiary);
+  color: aliceblue;
+  padding: 2rem 1rem;
+  margin-bottom: 3.2rem;
 }
 
 .about-heading__secondary {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
+  color: var(--clr-text-primary);
   margin: 1.6rem;
   text-align: center;
+  font-weight: 700;
 }
 
 .about-heading__description {

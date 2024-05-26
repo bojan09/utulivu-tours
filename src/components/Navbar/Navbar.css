@@ -8,13 +8,32 @@
 
 .mobile-navbar {
   position: relative;
-  background-color: var(--clr-bg-secondary);
+
+  background-color: var(--clr-bg-tertiary);
+  color: aliceblue;
 }
 
-.logo {
-  max-width: 250px;
+.logo-container {
+  position: relative;
+}
+
+.logo-image {
+  max-width: 90px;
   height: auto;
-  padding: 1rem;
+  padding: 0.3rem 0 1rem 1rem;
+}
+
+.logo-heading {
+  position: absolute;
+  top: 3.3rem;
+  left: 5.7rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.logo-heading:hover {
+  color: hsla(0, 0%, 0%, 0.787);
 }
 
 .nav-link_menu {
@@ -39,7 +58,7 @@
 
 .nav-link:hover {
   background-color: var(--clr-bg-tertiary);
-  color: #fff;
+  color: hsla(0, 0%, 0%, 0.787);
   border-radius: 10px;
   cursor: pointer;
 }

@@ -13,9 +13,12 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="desktop-navbar">
-        <a href="/" className="logo">
-          <img src={logo} alt="logo-img" className="logo-image" />
-        </a>
+        <div className="logo-container">
+          <Link to="/">
+            <img src={logo} alt="logo-img" className="logo-image" />
+            <h1 className="logo-heading">Utulivu Tours</h1>
+          </Link>
+        </div>
         <nav className="nav-links__container">
           <ul className="nav-links">
             <li>
@@ -57,9 +60,10 @@ const Navbar = () => {
       </div>
 
       <div className="mobile-navbar">
-        <div className="logo">
+        <div className="logo-container">
           <Link to="/">
             <img src={logo} alt="logo-img" className="logo-image" />
+            <h1 className="logo-heading">Utulivu Tours</h1>
           </Link>
         </div>
 
