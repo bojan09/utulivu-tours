@@ -28,36 +28,29 @@ const ClientComponent = () => {
     },
   };
   return (
-    <div className="clients-container">
-      <div>
-        <Carousel
-          arrows={false}
-          swipeable={true}
-          draggable={false}
-          showDots={false}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={4000}
-          customTransition="transform 600ms ease-in-out"
-          transitionDuration={300}
-          responsive={responsive}
-        >
-          {ourClients.map((client) => (
-            <div key={client.id} className="client-carousel__container">
-              <div className="container-top">
-                <img
-                  className="client__img"
-                  src={client.image}
-                  alt={client.name}
-                />
-                <h4 className="client-name__container">{client.name}</h4>
-              </div>
+    <div className="client_carousel">
+      <h1 className="clients__heading">What our clients say about us</h1>
+      <Carousel
+        arrows={false}
+        swipeable={true}
+        draggable={false}
+        showDots={false}
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={4000}
+        customTransition="transform 600ms ease-in-out"
+        transitionDuration={300}
+        responsive={responsive}
+      >
+        {ourClients.map((client) => (
+          <div key={client.id} className="client-carousel__container">
+            <img className="client__img" src={client.image} alt={client.name} />
+            <h4 className="client-name__container">{client.name}</h4>
 
-              <p className="client__description">{client.description}</p>
-            </div>
-          ))}
-        </Carousel>
-      </div>
+            <p className="client__description">{client.description}</p>
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 };

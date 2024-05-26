@@ -4,7 +4,10 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <section id="footer">
-      <h1>Your dream Zanzibar experience starts here.</h1>
+      <h1 className="footer-heading">
+        Your dream Zanzibar experience starts here.
+      </h1>
+      <div className="footer-container"></div>
     </section>
   );
 };
