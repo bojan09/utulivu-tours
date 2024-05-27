@@ -1,3 +1,24 @@
 .tour-container {
-  margin-bottom: 60vh;
+  margin-bottom: 9rem;
+}
+
+.tour-heading {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+.tour-description {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.tour-blog {
+  font-size: 16.5px;
+  margin-inline: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.7rem;
 }

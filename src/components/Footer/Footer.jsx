@@ -15,7 +15,7 @@ const Footer = () => {
         <br />
         <br />
         <a href="tel:+55 505 005" className="footer-email">
-          <b>Phone:</b> +55 505 005
+          <b>Phone:</b> + 55 505 005
         </a>
       </div>
     </section>
