@@ -16,13 +16,14 @@
 }
 
 .contact-container__heading {
-  font-size: 28px;
+  font-size: 26px;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .contact-container label {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -31,10 +32,11 @@
   height: 3rem;
   border: 1.2px solid var(--clr-bg-tertiary);
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .contact-container textarea {
-  height: 8rem;
+  height: 9rem;
 }
 
 .contact-button {
@@ -47,5 +49,5 @@
 }
 
 .contact-button:hover {
-  color: hsla(0, 0%, 0%, 0.787);
+  color: hsla(0, 0%, 0%, 0.626);
 }
