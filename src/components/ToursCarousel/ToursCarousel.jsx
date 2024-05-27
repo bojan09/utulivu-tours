@@ -48,7 +48,7 @@ const ToursCarousel = () => {
             <div key={tour.id} className="carousel__container">
               <Link to={`/tour/${tour.link}`}>
                 <img
-                  src={tour.image}
+                  src={tour.img_1}
                   alt="tourImage"
                   className="carousel-tour__image"
                 />
