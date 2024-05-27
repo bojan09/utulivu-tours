@@ -31,17 +31,18 @@
 .client__img {
   background-position: center;
   background-size: contain;
-  width: 130px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .client-name__container {
-  font-size: 28px;
-  margin: 0.6rem 0;
+  font-size: 22px;
+  margin-top: 1.7rem;
 }
 
 .client__description {
-  font-size: 18px;
-  padding: 1rem 0;
+  font-size: 16px;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
 }

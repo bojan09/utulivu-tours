@@ -10,11 +10,12 @@ const Footer = () => {
 
       <div className="footer-container">
         <a href="mailto:utulivu@tours.com" className="footer-email">
-          Email: utulivu@tours.com
+          <b>Email:</b> utulivu@tours.com
         </a>
         <br />
+        <br />
         <a href="tel:+55 505 005" className="footer-email">
-          Phone: +55 505 005
+          <b>Phone:</b> +55 505 005
         </a>
       </div>
     </section>
