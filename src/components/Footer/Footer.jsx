@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section id="footer">
       <h1 className="footer-heading">
-        Your dream Zanzibar experience starts here.
+        Embark on your ultimate <b>African</b> adventure right here.
       </h1>
 
       <div className="footer-container">
