@@ -16,9 +16,6 @@ const Navbar = () => {
         <div className="logo-container">
           <Link to="/">
             <img src={logo} alt="logo-img" className="logo-image" />
-            <h1 className="logo-heading">
-              Utulivu Tours Utulivu Tours & Safari
-            </h1>
           </Link>
         </div>
         <nav className="nav-links__container">
@@ -65,7 +62,6 @@ const Navbar = () => {
         <div className="logo-container">
           <Link to="/">
             <img src={logo} alt="logo-img" className="logo-image" />
-            <h1 className="logo-heading">Utulivu Tours & Safari</h1>
           </Link>
         </div>
 

@@ -9,7 +9,7 @@
 .mobile-navbar {
   position: relative;
 
-  background-color: var(--clr-bg-tertiary);
+  background-color: var(--clr-bg-secondary);
   color: aliceblue;
 }
 
@@ -18,9 +18,9 @@
 }
 
 .logo-image {
-  max-width: 90px;
+  max-width: 190px;
   height: auto;
-  padding: 0.3rem 0 1rem 1rem;
+  padding: 1rem 0 0 1rem;
 }
 
 .logo-heading {
@@ -43,8 +43,8 @@
   object-fit: contain;
   cursor: pointer;
   position: absolute;
-  top: 2.7rem;
-  right: 1.8rem;
+  top: 3.7rem;
+  right: 2.8rem;
 }
 
 .nav-link {
@@ -72,34 +72,28 @@
   padding-bottom: 1rem;
 }
 
-/* Desktop */
-@media only screen and (min-width: 900px) {
+/* Tablet */
+@media only screen and (min-width: 720px) {
   .mobile-navbar {
     display: none;
   }
 
   .desktop-navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    max-height: 17.5vh;
-  }
-
-  .nav-links__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-  }
-
-  .logo {
-    max-width: 280px;
-    display: grid;
-    place-self: center;
+    margin-inline: 2rem;
+    gap: 1rem;
   }
 
   .nav-links {
-    font-size: 20px;
-    margin: 0 1.3rem;
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  .nav-link {
+    color: var(clr-text-primary);
+    font-size: 1.35rem;
+    font-weight: 500;
   }
 }
