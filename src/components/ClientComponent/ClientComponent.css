@@ -10,6 +10,11 @@
   width: 280px;
   height: 330px;
   background-color: var(--clr-bg-primary);
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-left: 1.85rem;
 }
 
 .clients__heading {
@@ -19,13 +24,6 @@
   padding: 2rem 1rem;
   color: aliceblue;
   font-weight: 500;
-}
-
-.client-carousel__container {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  margin-left: 1.85rem;
 }
 
 .client__img {
@@ -45,4 +43,34 @@
   font-size: 16px;
   padding-bottom: 1rem;
   margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .client_carousel {
+    height: 55vh;
+  }
+
+  .clients__heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .client-carousel__container {
+    height: 400px;
+    width: 330px;
+  }
+
+  .client__img {
+    width: 150px;
+    height: 150px;
+    margin: 1rem 0 0 0.5rem;
+  }
+
+  .client-name__container {
+    font-size: 32px;
+  }
+
+  .client__description {
+    font-size: 21px;
+  }
 }
