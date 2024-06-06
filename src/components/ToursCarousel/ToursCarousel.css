@@ -22,3 +22,16 @@
   padding: 0 1rem;
   margin-top: 1rem;
 }
+
+@media only screen and (min-width: 720px) {
+  .carousel__container {
+    height: 500px;
+  }
+  .carousel-tour__heading {
+    font-size: 32px;
+  }
+
+  .carousel-tour__description {
+    font-size: 22px;
+  }
+}

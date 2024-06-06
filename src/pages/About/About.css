@@ -19,3 +19,19 @@
   margin: 1.8rem 1rem 1.4rem 1rem;
   font-size: 1.25rem;
 }
+
+@media only screen and (min-width: 720px) {
+  .about-heading {
+    font-size: 1.85rem;
+  }
+
+  .about-heading__secondary {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .about-heading__description {
+    font-size: 1.45rem;
+    margin: 2rem 2rem 0 2rem;
+  }
+}

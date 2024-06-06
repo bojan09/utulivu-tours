@@ -10,3 +10,9 @@
   padding: 2rem 1rem;
   margin: 4rem 0;
 }
+
+@media only screen and (min-width: 720px) {
+  .tours__heading {
+    font-size: 1.85rem;
+  }
+}
