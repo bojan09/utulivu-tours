@@ -19,3 +19,15 @@
   font-weight: 400;
   margin-bottom: 2rem;
 }
+
+@media only screen and (min-width: 720px) {
+  .footer-heading {
+    font-size: 2rem;
+    margin-inline: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer-container {
+    font-size: 24px;
+  }
+}
