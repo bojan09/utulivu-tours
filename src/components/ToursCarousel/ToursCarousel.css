@@ -3,6 +3,7 @@
   max-width: 390px;
   height: 400px;
   margin: 0 1rem;
+  margin-inline: auto;
   background-color: var(--clr-bg-secondary);
   border-radius: 1rem;
 }
