@@ -36,3 +36,19 @@
     font-size: 22px;
   }
 }
+
+@media only screen and (min-width: 900px) {
+  .carousel__container {
+    max-width: 290px;
+    height: 410px;
+  }
+
+  .carousel-tour__heading {
+    font-size: 22px;
+    margin-top: 1rem;
+  }
+
+  .carousel-tour__description {
+    font-size: 15px;
+  }
+}
