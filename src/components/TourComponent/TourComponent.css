@@ -22,3 +22,22 @@
   margin-bottom: 1rem;
   line-height: 1.7rem;
 }
+
+@media only screen and (min-width: 800px) {
+  .tour-heading {
+    font-size: 32px;
+  }
+
+  .tour-blog {
+    font-size: 19px;
+  }
+
+  .tour-description {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .tour-offers {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
