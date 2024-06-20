@@ -42,7 +42,7 @@ const Home = () => {
       {/* Pages */}
       <Tours />
       <About />
-      <Clients />
+      {/* <Clients /> */}
       <Contact />
     </section>
   );

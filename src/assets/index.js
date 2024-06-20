@@ -18,3 +18,6 @@ export { default as client__1 } from "./clients/client_1.jpg";
 export { default as client__2 } from "./clients/client_2.jpg";
 export { default as client__3 } from "./clients/client_3.jpg";
 export { default as client__4 } from "./clients/client_4.jpg";
+
+// about us
+export { default as about__img } from "./about-img.jpg";

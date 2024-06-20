@@ -31,3 +31,16 @@
     font-size: 24px;
   }
 }
+
+@media only screen and (min-width: 900px) {
+  .footer-container {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .footer-heading {
+    font-size: 28px;
+    margin-inline: 0;
+    margin-bottom: 2rem;
+  }
+}

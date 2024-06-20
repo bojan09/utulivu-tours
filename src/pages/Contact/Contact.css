@@ -89,3 +89,23 @@
     place-self: center;
   }
 }
+
+@media only screen and (min-width: 900px) {
+  .contact-container input {
+    height: 3.5rem;
+  }
+
+  .contact-container {
+    margin-inline: auto;
+    width: 60vw;
+  }
+
+  .contact-button {
+    font-size: 20px;
+    width: 10rem;
+    cursor: pointer;
+    margin-top: 4rem;
+    display: grid;
+    place-self: center;
+  }
+}
