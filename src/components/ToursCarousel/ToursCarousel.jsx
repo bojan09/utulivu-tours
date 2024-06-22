@@ -50,6 +50,9 @@ const ToursCarousel = () => {
                 <h1 className="carousel-tour__heading heading-primary">
                   {tour.title}
                 </h1>
+                <h3>{tour.tours}</h3>
+
+                <p>{tour.tour_one_description}</p>
                 <p className="carousel-tour__description">{tour.description}</p>
               </Link>
             </div>

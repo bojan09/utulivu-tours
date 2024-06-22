@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 
 // pages
-import { Tours, About, Clients, Contact } from "../";
+import { Tours, About, Contact } from "../";
 
 // assets
 import { home_img__1, home_img__2 } from "../../assets";
@@ -39,10 +39,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Pages */}
       <Tours />
       <About />
-      {/* <Clients /> */}
       <Contact />
     </section>
   );

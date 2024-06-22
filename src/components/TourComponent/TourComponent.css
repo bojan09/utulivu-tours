@@ -22,6 +22,10 @@
   margin-bottom: 1rem;
   line-height: 1.7rem;
 }
+.tour-description_heading {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
 
 @media only screen and (min-width: 800px) {
   .tour-heading {
@@ -45,18 +49,41 @@
 @media only screen and (min-width: 900px) {
   .tour-container {
     display: flex;
-  }
-
-  .tour-image {
-    height: 90vh;
-    width: 75vw;
+    flex: 0 1 auto;
   }
 
   .carousel {
-    width: 75vw;
+    width: 48%;
+    height: 100vh;
+    margin: 1rem;
+  }
+
+  .tour-image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tour-info_container {
+    width: 48%;
+    margin: 1rem;
+  }
+
+  .tour-heading {
+    margin: 1rem 0;
   }
 
   .tour-description {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .tour-description_heading {
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .tour-blog {
+    font-size: 15px;
   }
 }

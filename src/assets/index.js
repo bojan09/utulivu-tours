@@ -9,15 +9,11 @@ export { default as home_img__1 } from "./home_img__1.jpg";
 export { default as home_img__2 } from "./home_img__2.jpg";
 
 // destinations-tours images
-export { default as stone__town__1 } from "./destinations-tours/stone__town-1.jpg";
-export { default as stone__town__2 } from "./destinations-tours/stone__town-2.jpg";
-export { default as stone__town__3 } from "./destinations-tours/stone__town-3.jpg";
-
-// clients portaits
-export { default as client__1 } from "./clients/client_1.jpg";
-export { default as client__2 } from "./clients/client_2.jpg";
-export { default as client__3 } from "./clients/client_3.jpg";
-export { default as client__4 } from "./clients/client_4.jpg";
-
+export { default as stone__town } from "./destinations-tours/stone-town/stone-town.jpg";
+export { default as darjani_market } from "./destinations-tours/stone-town/darjani-spice-market.jpg";
+export { default as darjani_spice_market } from "./destinations-tours/stone-town/darjani-spice-market_2.jpg";
+export { default as house_of_wonders } from "./destinations-tours/stone-town/house_of_wonders.jpg";
+export { default as old_fort } from "./destinations-tours/stone-town/old-fort.jpg";
+export { default as sultans_palace } from "./destinations-tours/stone-town/sultans-palace.jpg";
 // about us
 export { default as about__img } from "./about-img.jpg";

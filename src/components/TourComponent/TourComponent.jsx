@@ -33,16 +33,46 @@ const TourComponent = ({ tours }) => {
         <img className="tour-image" src={tours.img_1} alt={tours.img_1} />
         <img className="tour-image" src={tours.img_2} alt={tours.img_2} />
         <img className="tour-image" src={tours.img_3} alt={tours.img_3} />
+        <img className="tour-image" src={tours.img_4} alt={tours.img_4} />
+        <img className="tour-image" src={tours.img_5} alt={tours.img_5} />
+        <img className="tour-image" src={tours.img_6} alt={tours.img_6} />
       </Carousel>
 
       <div className="tour-info_container">
         <h1 className="tour-heading">{tours.title}</h1>
         <p className="tour-description">This tour offers the following:</p>
         <div className="tour-offers">
-          <p className="tour-blog">{tours.tour_offer_1}</p>
-          <p className="tour-blog">{tours.tour_offer_2}</p>
-          <p className="tour-blog">{tours.tour_offer_3}</p>
-          <p className="tour-blog">{tours.tour_offer_4}</p>
+          <div className="tour_one">
+            <h1 className="tour-description_heading">
+              {tours.tour_one_heading}
+            </h1>
+            <p className="tour-blog">{tours.tour_one_description_part_one}</p>
+            <p className="tour-blog">{tours.tour_one_description_part_two}</p>
+            <p className="tour-blog">{tours.tour_one_description_part_three}</p>
+            <p className="tour-blog">{tours.tour_one_description_part_four}</p>
+          </div>
+          <div className="tour_two">
+            <h1 className="tour-description_heading">
+              {tours.tour_two_heading}
+            </h1>
+            <p className="tour-blog">{tours.tour_two_description_part_one}</p>
+            <p className="tour-blog">{tours.tour_two_description_part_two}</p>
+            <p className="tour-blog">{tours.tour_two_description_part_three}</p>
+            <p className="tour-blog">{tours.tour_two_description_part_four}</p>
+          </div>
+          <div className="tour_three">
+            <h1 className="tour-description_heading">
+              {tours.tour_three_heading}
+            </h1>
+            <p className="tour-blog">{tours.tour_three_description_part_one}</p>
+            <p className="tour-blog">{tours.tour_three_description_part_two}</p>
+            <p className="tour-blog">
+              {tours.tour_three_description_part_three}
+            </p>
+            <p className="tour-blog">
+              {tours.tour_three_description_part_four}
+            </p>
+          </div>
         </div>
       </div>
     </div>

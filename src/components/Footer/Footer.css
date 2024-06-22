@@ -1,5 +1,5 @@
 #footer {
-  margin: -5rem 0 0 0;
+  margin: -2.5rem 0 0 0;
 
   padding: 2rem 0;
   background-color: var(--clr-bg-tertiary);
@@ -7,14 +7,14 @@
 }
 
 .footer-heading {
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
   font-weight: 400;
   margin-bottom: 2rem;
 }
 
 .footer-container {
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
   font-weight: 400;
   margin-bottom: 2rem;

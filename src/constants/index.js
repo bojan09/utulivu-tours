@@ -2,110 +2,44 @@
 
 // destination images
 import {
-  client__1,
-  client__2,
-  client__3,
-  client__4,
-  stone__town__1,
-  stone__town__2,
-  stone__town__3,
+  stone__town,
+  darjani_market,
+  darjani_spice_market,
+  house_of_wonders,
+  old_fort,
+  sultans_palace,
 } from "../assets";
 
 // Tours
 export const ourTours = [
   {
     id: 1,
-    img_1: stone__town__1,
-    img_2: stone__town__2,
-    img_3: stone__town__3,
+    link: "stone-town",
+    img_1: stone__town,
+    img_2: darjani_market,
+    img_3: darjani_spice_market,
+    img_4: house_of_wonders,
+    img_5: old_fort,
+    img_6: sultans_palace,
     title: "Stone Town",
     description:
-      "Explore the heart of Zanzibar, a UNESCO World Heritage Site, with its winding alleys, bustling bazaars, and historical sites",
-    tour_offer_1: `House of Wonders: Also known as Beit-al-Ajaib, this grand palace showcases Swahili and Omani culture.`,
-    tour_offer_2: ` Sultan’s Palace: A museum providing insights into the island’s royal history.`,
-    tour_offer_3: `Old Fort: A 17th-century fortress and cultural center with local arts and crafts.`,
-    tour_offer_4: `Slave Market: Visit the Anglican Cathedral and the former slave market for a poignant look at Zanzibar’s role in the slave trade.`,
-    link: "stone-town",
-  },
-  {
-    id: 2,
-    img_1: stone__town__1,
-    img_2: stone__town__2,
-    img_3: stone__town__3,
-    title: "Zanzibar Beaches",
-    description: "Relax on some of the most beautiful beaches in the world",
-    tour_offer_1: `Nungwi Beach: Known for its clear waters, vibrant nightlife, and opportunities for water sports.`,
-    tour_offer_2: `Kendwa Beach: Famous for its stunning sunsets and full moon parties.`,
-    tour_offer_3: `Paje Beach: Ideal for kite surfing and a tranquil retreat with powdery white sand.`,
-    tour_offer_4: ``,
-    link: "zanzibar-beaches",
-  },
-  {
-    id: 3,
-    img_1: stone__town__1,
-    img_2: stone__town__2,
-    img_3: stone__town__3,
-    title: "Spice Tour",
-    description: "Experience Zanzibar’s famous spice farms",
-    tour_offer_1: `Spice Plantations: Take a guided tour to learn about the cultivation and uses of various spices such as cloves, vanilla, nutmeg, and cinnamon. Enjoy a sensory experience as you see, smell, and taste fresh spices.`,
-    tour_offer_2: ``,
-    tour_offer_3: ``,
-    tour_offer_4: ``,
-    link: "spice-tour",
-  },
+      "Embark on a captivating journey through the historic heart of Zanzibar with our Stone Town tour. Wander through the narrow, winding streets of this UNESCO World Heritage Site, where every corner reveals a blend of African, Arabian, Indian, and European influences.",
 
-  {
-    id: 4,
-    img_1: stone__town__1,
-    img_2: stone__town__2,
-    img_3: stone__town__3,
-    title: "Jozani Chwaka Bay National Park",
-    description: "Discover Zanzibar’s natural beauty and wildlife",
-    tour_offer_1: `Red Colobus Monkeys: Observe these rare primates in their natural habitat.`,
-    tour_offer_2: `Mangrove Forests: Explore the diverse ecosystem with guided nature walks through lush forests and mangroves.`,
-    tour_offer_3: ``,
-    tour_offer_4: ``,
-    link: "jozani-cwaka-bay-national-park",
-  },
-  {
-    id: 5,
-    img_1: stone__town__1,
-    img_2: stone__town__2,
-    img_3: stone__town__3,
-    title: "Mnemba Atoll",
-    description: "A marine conservation area perfect for underwater adventures",
-    tour_offer_1: `Snorkeling and Diving: Explore vibrant coral reefs teeming with marine life, including dolphins, sea turtles, and colorful fish.`,
-    tour_offer_2: ``,
-    tour_offer_3: ``,
-    tour_offer_4: ``,
-    link: "mnemba-atoll",
-  },
-];
+    tour_one_heading: "Historical and Cultural Tour",
+    tour_one_description_part_one: `House of Wonders (Beit-al-Ajaib): Explore Zanzibar's largest and most famous landmark, housing a museum with exhibits on Swahili and Zanzibari culture.`,
+    tour_one_description_part_two:
+      "Sultan's Palace (Beit al-Sahel): Visit the former palace of the Sultan of Zanzibar, now a museum showcasing royal artifacts and the island's history.",
+    tour_one_description_part_three:
+      "Old Fort (Ngome Kongwe): Wander through this 17th-century fort, now a cultural center with local art, crafts, and a small café.",
 
-// clients
-export const ourClients = [
-  {
-    id: 1,
-    name: "Jane",
-    description: "Lorem Ipsum Dolorem. One, two, three.",
-    image: client__1,
-  },
-  {
-    id: 2,
-    name: "Maricelle",
-    description: "Lorem Ipsum Dolorem. One, two, three.",
-    image: client__2,
-  },
-  {
-    id: 3,
-    name: "Victoria",
-    description: "Lorem Ipsum Dolorem. One, two, three.",
-    image: client__3,
-  },
-  {
-    id: 4,
-    name: "Sharon",
-    description: "Lorem Ipsum Dolorem. One, two, three.",
-    image: client__4,
+    tour_two_heading: "Spice Tour",
+    tour_two_description_part_one: `Discover why Zanzibar is known as the Spice Island with a guided tour of local spice plantations. Learn about the cultivation and uses of cloves, vanilla, nutmeg, and other spices.`,
+    tour_two_description_part_two:
+      "Tasting Sessions: Enjoy fresh samples of spices and tropical fruits, and learn how they are used in traditional Zanzibari cuisine.",
+
+    tour_three_heading: "Cultural Immersion Tour",
+    tour_three_description_part_one: `Darajani Market: Experience the hustle and bustle of Stone Town's main market, where you can buy everything from fresh produce to local crafts.`,
+    tour_three_description_part_two:
+      "Zanzibar Coffee Houses: Visit traditional coffee houses to savor local brews and enjoy a slice of Swahili culture.",
   },
 ];
