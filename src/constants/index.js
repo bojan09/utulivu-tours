@@ -8,6 +8,12 @@ import {
   house_of_wonders,
   old_fort,
   sultans_palace,
+  kendawa_beach,
+  kendawa_beach_2,
+  paje_beach,
+  paje_beach_2,
+  nungwi_beach,
+  nungwi_beach_2,
 } from "../assets";
 
 // Tours
@@ -41,5 +47,28 @@ export const ourTours = [
     tour_three_description_part_one: `Darajani Market: Experience the hustle and bustle of Stone Town's main market, where you can buy everything from fresh produce to local crafts.`,
     tour_three_description_part_two:
       "Zanzibar Coffee Houses: Visit traditional coffee houses to savor local brews and enjoy a slice of Swahili culture.",
+  },
+
+  {
+    id: 1,
+    link: "zanzibar-beaches",
+    img_1: kendawa_beach,
+    img_2: kendawa_beach_2,
+    img_3: paje_beach,
+    img_4: paje_beach_2,
+    img_5: nungwi_beach,
+    img_6: nungwi_beach_2,
+    title: "Pristine Beaches",
+    description:
+      "Discover the breathtaking beauty and diverse experiences of Zanzibar's most stunning beaches on this exclusive tour. Perfect for beach lovers, adventure seekers, and those in need of relaxation, our tour offers something for everyone.",
+
+    tour_one_heading: "Nungwi Beach",
+    tour_one_description_part_one: `One of Zanzibar's most stunning and lively coastal destinations. Our comprehensive tour package offers an unforgettable day filled with adventure, relaxation, and cultural exploration.`,
+
+    tour_two_heading: "Kendwa Beach",
+    tour_two_description_part_one: `Known for its wide sandy shores, calm waters, and vibrant atmosphere. Perfect for both relaxation and adventure, this tour offers a blend of leisure and fun activities on one of Zanzibar's most beautiful beaches.`,
+
+    tour_three_heading: "Paje Beach",
+    tour_three_description_part_one: `A kite surfing paradise on the southeast coast of Zanzibar. Known for its consistent winds and stunning scenery, Paje offers the perfect combination of adventure, local culture, and beachside relaxation.`,
   },
 ];

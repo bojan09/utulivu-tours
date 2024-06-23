@@ -9,6 +9,7 @@
 
 .carousel-tour__image {
   border-radius: 1rem 1rem 0 0;
+  height: 195px;
 }
 
 .carousel-tour__heading {

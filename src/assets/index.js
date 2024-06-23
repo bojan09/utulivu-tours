@@ -9,11 +9,21 @@ export { default as home_img__1 } from "./home_img__1.jpg";
 export { default as home_img__2 } from "./home_img__2.jpg";
 
 // destinations-tours images
+// stone-town
 export { default as stone__town } from "./destinations-tours/stone-town/stone-town.jpg";
 export { default as darjani_market } from "./destinations-tours/stone-town/darjani-spice-market.jpg";
 export { default as darjani_spice_market } from "./destinations-tours/stone-town/darjani-spice-market_2.jpg";
 export { default as house_of_wonders } from "./destinations-tours/stone-town/house_of_wonders.jpg";
 export { default as old_fort } from "./destinations-tours/stone-town/old-fort.jpg";
 export { default as sultans_palace } from "./destinations-tours/stone-town/sultans-palace.jpg";
+
+// beaches
+export { default as kendawa_beach } from "./destinations-tours/zanzibar-beaches/kendawa_beach.webp";
+export { default as kendawa_beach_2 } from "./destinations-tours/zanzibar-beaches/kendawa_beach_2.jpg";
+export { default as nungwi_beach } from "./destinations-tours/zanzibar-beaches/nugwi_beach.jpg";
+export { default as nungwi_beach_2 } from "./destinations-tours/zanzibar-beaches/nungwi_beach_2.jpg";
+export { default as paje_beach } from "./destinations-tours/zanzibar-beaches/paje_beach.jpg";
+export { default as paje_beach_2 } from "./destinations-tours/zanzibar-beaches/paje_beach_3.jpg";
+
 // about us
 export { default as about__img } from "./about-img.jpg";

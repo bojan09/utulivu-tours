@@ -12,9 +12,8 @@ const Home = () => {
       <div className="home-container">
         <div className="home-left">
           <h1 className="home__heading">
-            Experience <span className="home-heading__icon">Zanzibar</span>{" "}
-            where beaches and rich cultural heritage await to enchant your
-            senses.
+            Experience <span className="home-heading__icon">Africa</span> where
+            beaches and rich cultural heritage await to enchant your senses.
           </h1>
           <p className="home__paragarph">
             Whether you're seeking a thrilling safari in the heart of Africa, a
