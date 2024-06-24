@@ -14,6 +14,13 @@ import {
   paje_beach_2,
   nungwi_beach,
   nungwi_beach_2,
+  jozani_park_1,
+  jozani_park_2,
+  jozani_park_3,
+  jozani_park_4,
+  jozani_park_5,
+  jozani_park_6,
+  jozani_park_7,
 } from "../assets";
 
 // Tours
@@ -50,7 +57,7 @@ export const ourTours = [
   },
 
   {
-    id: 1,
+    id: 2,
     link: "zanzibar-beaches",
     img_1: kendawa_beach,
     img_2: kendawa_beach_2,
@@ -70,5 +77,34 @@ export const ourTours = [
 
     tour_three_heading: "Paje Beach",
     tour_three_description_part_one: `A kite surfing paradise on the southeast coast of Zanzibar. Known for its consistent winds and stunning scenery, Paje offers the perfect combination of adventure, local culture, and beachside relaxation.`,
+  },
+  {
+    id: 3,
+    link: "jozani-cwaka-park",
+    img_1: jozani_park_1,
+    img_2: jozani_park_2,
+    img_3: jozani_park_3,
+    img_4: jozani_park_4,
+    img_5: jozani_park_5,
+    img_6: jozani_park_6,
+    img_7: jozani_park_7,
+    title: "Jozani Chwaka Bay National Park",
+    description:
+      "Embark on an unforgettable journey through Zanzibar's only national park, renowned for its rich biodiversity and unique ecosystems. This tour offers an immersive experience into the heart of Africa's natural beauty and wildlife.",
+
+    tour_one_heading: "Red Colobus Monkeys",
+    tour_one_description_part_one: `Observe the rare and endemic Zanzibar Red Colobus Monkeys in their natural habitat. Learn about their behavior, social structure, and conservation efforts.`,
+
+    tour_two_heading: "Mangrove Boardwalk",
+    tour_two_description_part_one: `Stroll along the scenic mangrove boardwalk, where you can see various marine and bird species. Discover the vital role mangroves play in the coastal ecosystem.`,
+
+    tour_three_heading: "Forest Trails",
+    tour_three_description_part_one: `Hike through lush forest trails and explore the diverse flora and fauna. Learn about medicinal plants, towering trees, and the park’s ecological significance.`,
+
+    tour_four_heading: "Butterfly Center",
+    tour_four_description_part_one: `Visit the nearby butterfly center and see a variety of colorful butterflies. Learn about their life cycle and the importance of butterfly conservation.`,
+
+    tour_five_heading: "Local Villages",
+    tour_five_description_part_one: `Experience the local culture with a visit to nearby villages. Engage with the friendly residents and discover traditional practices and crafts.`,
   },
 ];

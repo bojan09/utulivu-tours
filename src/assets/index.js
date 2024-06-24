@@ -25,5 +25,14 @@ export { default as nungwi_beach_2 } from "./destinations-tours/zanzibar-beaches
 export { default as paje_beach } from "./destinations-tours/zanzibar-beaches/paje_beach.jpg";
 export { default as paje_beach_2 } from "./destinations-tours/zanzibar-beaches/paje_beach_3.jpg";
 
+// jozani park
+export { default as jozani_park_1 } from "./destinations-tours/jozani_park/jozani_park_1.jpg";
+export { default as jozani_park_2 } from "./destinations-tours/jozani_park/jozani_park_2.jpg";
+export { default as jozani_park_3 } from "./destinations-tours/jozani_park/jozani_park_3.jpg";
+export { default as jozani_park_4 } from "./destinations-tours/jozani_park/jozani_park_4.jpg";
+export { default as jozani_park_5 } from "./destinations-tours/jozani_park/jozani_park_5.jpg";
+export { default as jozani_park_6 } from "./destinations-tours/jozani_park/jozani_park_6.jpg";
+export { default as jozani_park_7 } from "./destinations-tours/jozani_park/jozani_park_7.jpg";
+
 // about us
 export { default as about__img } from "./about-img.jpg";

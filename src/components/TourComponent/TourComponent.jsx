@@ -11,8 +11,12 @@ const TourComponent = ({ tours }) => {
   }, []);
 
   const responsive = {
-    all: {
-      breakpoint: { max: 3000, min: 0 },
+    desktop: {
+      breakpoint: { max: 3000, min: 800 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 800, min: 0 },
       items: 1,
     },
   };
@@ -21,6 +25,7 @@ const TourComponent = ({ tours }) => {
     <div className="tour-container">
       <Carousel
         arrows={true}
+        removeArrowOnDeviceType={["mobile"]}
         swipeable={true}
         draggable={false}
         showDots={false}
@@ -36,6 +41,7 @@ const TourComponent = ({ tours }) => {
         <img className="tour-image" src={tours.img_4} alt={tours.img_4} />
         <img className="tour-image" src={tours.img_5} alt={tours.img_5} />
         <img className="tour-image" src={tours.img_6} alt={tours.img_6} />
+        <img className="tour-image" src={tours.img_7} alt={tours.img_7} />
       </Carousel>
 
       <div className="tour-info_container">
@@ -50,6 +56,7 @@ const TourComponent = ({ tours }) => {
             <p className="tour-blog">{tours.tour_one_description_part_two}</p>
             <p className="tour-blog">{tours.tour_one_description_part_three}</p>
             <p className="tour-blog">{tours.tour_one_description_part_four}</p>
+            <p className="tour-blog">{tours.tour_one_description_part_five}</p>
           </div>
           <div className="tour_two">
             <h1 className="tour-description_heading">
@@ -72,6 +79,38 @@ const TourComponent = ({ tours }) => {
             <p className="tour-blog">
               {tours.tour_three_description_part_four}
             </p>
+          </div>
+
+          <div className="tour_four">
+            <h1 className="tour-description_heading">
+              {tours.tour_three_heading}
+            </h1>
+            <p className="tour-blog">{tours.tour_four_description_part_one}</p>
+            <p className="tour-blog">{tours.tour_four_description_part_two}</p>
+            <p className="tour-blog">
+              {tours.tour_four_description_part_three}
+            </p>
+            <p className="tour-blog">{tours.tour_four_description_part_four}</p>
+            <p className="tour-blog">
+              {tours.tour_four_description_part_three}
+            </p>
+            <p className="tour-blog">{tours.tour_four_description_part_four}</p>
+          </div>
+
+          <div className="tour_five">
+            <h1 className="tour-description_heading">
+              {tours.tour_five_heading}
+            </h1>
+            <p className="tour-blog">{tours.tour_five_description_part_one}</p>
+            <p className="tour-blog">{tours.tour_five_description_part_two}</p>
+            <p className="tour-blog">
+              {tours.tour_five_description_part_three}
+            </p>
+            <p className="tour-blog">{tours.tour_five_description_part_four}</p>
+            <p className="tour-blog">
+              {tours.tour_five_description_part_three}
+            </p>
+            <p className="tour-blog">{tours.tour_five_description_part_four}</p>
           </div>
         </div>
       </div>
