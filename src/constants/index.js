@@ -21,6 +21,14 @@ import {
   jozani_park_5,
   jozani_park_6,
   jozani_park_7,
+  safari_1,
+  safari_2,
+  safari_3,
+  safari_4,
+  safari_5,
+  safari_6,
+  safari_7,
+  safari_8,
 } from "../assets";
 
 // Tours
@@ -106,5 +114,30 @@ export const ourTours = [
 
     tour_five_heading: "Local Villages",
     tour_five_description_part_one: `Experience the local culture with a visit to nearby villages. Engage with the friendly residents and discover traditional practices and crafts.`,
+  },
+
+  {
+    id: 4,
+    link: "african-safari",
+    img_1: safari_1,
+    img_2: safari_2,
+    img_3: safari_3,
+    img_4: safari_4,
+    img_5: safari_5,
+    img_6: safari_6,
+    img_7: safari_7,
+    img_8: safari_8,
+    title: "An Unforgettable Journey into the Wild",
+    description:
+      "Embark on an unforgettable journey through Zanzibar's only national park, renowned for its rich biodiversity and unique ecosystems. This tour offers an immersive experience into the heart of Africa's natural beauty and wildlife.",
+
+    tour_one_heading: "Cheetah's Rock",
+    tour_one_description_part_one: `A wildlife sanctuary dedicated to rescuing and rehabilitating animals. This ethical wildlife experience allows you to get up close with a variety of animals, including cheetahs, lions, and lemurs. Learn about the conservation efforts and the stories of the rescued animals from passionate guides committed to wildlife protection.`,
+
+    tour_two_heading: "Ngezi Forest Reserve (Pemba Island)",
+    tour_two_description_part_one: `This untouched paradise is a haven for birdwatchers and nature lovers. Explore the dense forest, discover exotic plant species, and spot indigenous birds such as the Pemba sunbird and Pemba scops owl. The tranquility and natural beauty of Ngezi Forest make it a perfect escape from the hustle and bustle.`,
+
+    tour_three_heading: "Saadani National Park",
+    tour_three_description_part_one: `The only park in East Africa where the bush meets the beach. This unique park offers a combination of game drives and beach relaxation. Spot elephants, giraffes, and buffalo on a thrilling game drive, and then unwind on the park’s unspoiled beaches. The Wami River, which runs through the park, is also home to hippos and crocodiles, providing diverse wildlife viewing opportunities.`,
   },
 ];

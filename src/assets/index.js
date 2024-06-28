@@ -34,5 +34,15 @@ export { default as jozani_park_5 } from "./destinations-tours/jozani_park/jozan
 export { default as jozani_park_6 } from "./destinations-tours/jozani_park/jozani_park_6.jpg";
 export { default as jozani_park_7 } from "./destinations-tours/jozani_park/jozani_park_7.jpg";
 
+// safari
+export { default as safari_1 } from "./destinations-tours/safari/safari_1.jpg";
+export { default as safari_2 } from "./destinations-tours/safari/safari_2.jpg";
+export { default as safari_3 } from "./destinations-tours/safari/safari_3.jpg";
+export { default as safari_4 } from "./destinations-tours/safari/safari_4.jpg";
+export { default as safari_5 } from "./destinations-tours/safari/safari_5.jpg";
+export { default as safari_6 } from "./destinations-tours/safari/safari_6.jpg";
+export { default as safari_7 } from "./destinations-tours/safari/safari_7.jpg";
+export { default as safari_8 } from "./destinations-tours/safari/safari_8.jpg";
+
 // about us
 export { default as about__img } from "./about-img.jpg";

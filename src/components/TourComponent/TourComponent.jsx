@@ -83,7 +83,7 @@ const TourComponent = ({ tours }) => {
 
           <div className="tour_four">
             <h1 className="tour-description_heading">
-              {tours.tour_three_heading}
+              {tours.tour_four_heading}
             </h1>
             <p className="tour-blog">{tours.tour_four_description_part_one}</p>
             <p className="tour-blog">{tours.tour_four_description_part_two}</p>

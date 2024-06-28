@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <section id="footer">
       <h1 className="footer-heading">
-        Embark on your ultimate <b>African</b> adventure right here.
+        Join us for an adventure that will leave you with memories to last a
+        lifetime. <br /> <br />
+        Book your tour today and start your journey to paradise!
+        <br />
       </h1>
 
       <div className="footer-container">
