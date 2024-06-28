@@ -46,6 +46,18 @@ import {
   prison_island_4,
   prison_island_5,
   prison_island_2,
+  forodhani_1,
+  forodhani_2,
+  forodhani_3,
+  forodhani_4,
+  forodhani_5,
+  forodhani_6,
+  butterfly_centre_1,
+  butterfly_centre_2,
+  butterfly_centre_3,
+  butterfly_centre_4,
+  butterfly_centre_5,
+  butterfly_centre_6,
 } from "../assets";
 
 // Tours
@@ -233,5 +245,51 @@ export const ourTours = [
 
     tour_four_heading: "Island Relaxation",
     tour_four_description_part_one: `After your activities, take some time to relax on the beautiful beaches of Changuu Island. The soft, white sands and tranquil atmosphere provide the perfect setting for unwinding. Enjoy a leisurely stroll along the beach, bask in the sun, or simply sit back and appreciate the natural beauty of the island.`,
+  },
+
+  {
+    id: 7,
+    link: "forodhani-gardens",
+    img_1: forodhani_1,
+    img_2: forodhani_2,
+    img_3: forodhani_3,
+    img_4: forodhani_4,
+    img_5: forodhani_5,
+    img_6: forodhani_6,
+    title: "Forodhani Gardens: A Culinary and Cultural Evening Tour",
+    description:
+      "This tour is perfect for food enthusiasts, history buffs, and anyone looking to immerse themselves in the vibrant local culture. Enjoy stunning sunsets, delicious street food, and live entertainment in this lively and historical setting.",
+
+    tour_one_heading: "Sunset Views",
+    tour_one_description_part_one: `Begin your evening with a leisurely stroll through Forodhani Gardens as the sun sets over the Indian Ocean. The gardens provide a picturesque setting with palm trees, beautifully manicured lawns, and the sound of waves gently lapping the shore. Capture the mesmerizing colors of the sunset and the serene ambiance of the waterfront.`,
+
+    tour_two_heading: "Local Cuisine",
+    tour_two_description_part_one: `As night falls, Forodhani Gardens transforms into a bustling night market, offering a wide array of traditional Zanzibari street foods. Indulge in a culinary adventure as you sample local delicacies such as Zanzibar pizza, urojo (Zanzibari mix), grilled seafood, shawarma, and sugarcane juice. Our knowledgeable guides will help you navigate the market and recommend must-try dishes, ensuring you experience the best flavors of Zanzibar.`,
+
+    tour_three_heading: "Live Entertainment",
+    tour_three_description_part_one: `Experience the vibrant atmosphere of Forodhani Gardens with live music and traditional dance performances. Local musicians and dancers showcase the rich cultural traditions of Zanzibar, creating a lively and festive ambiance. Enjoy the rhythmic beats of taarab music and the captivating movements of traditional Swahili dances as you relax and soak in the evening’s entertainment.`,
+  },
+
+  {
+    id: 8,
+    link: "butterfly-centre",
+    img_1: butterfly_centre_1,
+    img_2: butterfly_centre_2,
+    img_3: butterfly_centre_3,
+    img_4: butterfly_centre_4,
+    img_5: butterfly_centre_5,
+    img_6: butterfly_centre_6,
+    title: "Butterfly Centre Experience: A Day of Nature and Conservation",
+    description:
+      "Immerse yourself in the natural beauty and fascinating world of butterflies at the Zanzibar Butterfly Centre. Perfect for nature enthusiasts, families, and anyone interested in conservation. ",
+
+    tour_one_heading: "Guided Tour of Butterfly Centre",
+    tour_one_description_part_one: `Begin your visit with a guided tour of the Zanzibar Butterfly Centre. Our knowledgeable guides will introduce you to the various butterfly species native to Zanzibar and beyond. Learn about their life cycles, behaviors, and the unique characteristics that make each species special. Gain insights into the critical role butterflies play in the ecosystem.`,
+
+    tour_two_heading: "Butterfly Sanctuary",
+    tour_two_description_part_one: `Step into the butterfly sanctuary, a lush, tropical garden filled with a kaleidoscope of butterflies. Stroll through the sanctuary and marvel at the colorful butterflies fluttering around you. Observe them feeding, resting, and interacting with their environment. The sanctuary provides a serene and enchanting atmosphere, perfect for photography and quiet reflection.`,
+
+    tour_three_heading: "Local Community Interaction",
+    tour_three_description_part_one: `Discover the positive impact of the Zanzibar Butterfly Centre on local communities. The centre supports local farmers by providing training and a market for sustainably farmed butterflies. Learn about the centre’s community outreach programs and how they contribute to local livelihoods and environmental conservation. Interact with community members and hear their stories firsthand.`,
   },
 ];

@@ -67,5 +67,21 @@ export { default as prison_island_3 } from "./destinations-tours/prison_island/p
 export { default as prison_island_4 } from "./destinations-tours/prison_island/prison_island_4.jpg";
 export { default as prison_island_5 } from "./destinations-tours/prison_island/prison_island_5.webp";
 
+// forodhani-gardens
+export { default as forodhani_1 } from "./destinations-tours/forodhani/forodhani_1.jpg";
+export { default as forodhani_2 } from "./destinations-tours/forodhani/forodhani_2.jpg";
+export { default as forodhani_3 } from "./destinations-tours/forodhani/forodhani_3.jpg";
+export { default as forodhani_4 } from "./destinations-tours/forodhani/forodhani_4.jpg";
+export { default as forodhani_5 } from "./destinations-tours/forodhani/forodhani_5.jpg";
+export { default as forodhani_6 } from "./destinations-tours/forodhani/forodhani_6.webp";
+
+// butterfly-centre
+export { default as butterfly_centre_1 } from "./destinations-tours/butterfly-centre/butterfly-centre_1.jpg";
+export { default as butterfly_centre_2 } from "./destinations-tours/butterfly-centre/butterfly-centre_2.jpg";
+export { default as butterfly_centre_3 } from "./destinations-tours/butterfly-centre/butterfly-centre_3.jpg";
+export { default as butterfly_centre_4 } from "./destinations-tours/butterfly-centre/butterfly-centre_4.jpg";
+export { default as butterfly_centre_5 } from "./destinations-tours/butterfly-centre/butterfly-centre_5.jpg";
+export { default as butterfly_centre_6 } from "./destinations-tours/butterfly-centre/butterfly-centre_6.jpg";
+
 // about us
 export { default as about__img } from "./about-img.jpg";
