@@ -60,5 +60,12 @@ export { default as rock_3 } from "./destinations-tours/rock-restaurant/rock_3.w
 export { default as rock_4 } from "./destinations-tours/rock-restaurant/rock_4.webp";
 export { default as rock_5 } from "./destinations-tours/rock-restaurant/rock_5.webp";
 
+// prison island
+export { default as prison_island_1 } from "./destinations-tours/prison_island/prison-island-1.jpg";
+export { default as prison_island_2 } from "./destinations-tours/prison_island/prison_island_2.webp";
+export { default as prison_island_3 } from "./destinations-tours/prison_island/prison_island_3.jpg";
+export { default as prison_island_4 } from "./destinations-tours/prison_island/prison_island_4.jpg";
+export { default as prison_island_5 } from "./destinations-tours/prison_island/prison_island_5.webp";
+
 // about us
 export { default as about__img } from "./about-img.jpg";

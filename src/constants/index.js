@@ -41,6 +41,11 @@ import {
   rock_3,
   rock_4,
   rock_5,
+  prison_island_1,
+  prison_island_3,
+  prison_island_4,
+  prison_island_5,
+  prison_island_2,
 } from "../assets";
 
 // Tours
@@ -203,5 +208,30 @@ export const ourTours = [
 
     tour_three_heading: "Michamvi Beach",
     tour_three_description_part_one: `Before or after your meal, take some time to relax on the beautiful Michamvi Beach. The soft, white sands and clear, warm waters create the perfect environment for unwinding. Stroll along the beach, take a dip in the ocean, or simply bask in the sun. Michamvi Beach’s serene atmosphere complements the unique dining experience at The Rock.`,
+  },
+
+  {
+    id: 6,
+    link: "prison-island",
+    img_1: prison_island_1,
+    img_2: prison_island_2,
+    img_3: prison_island_3,
+    img_4: prison_island_4,
+    img_5: prison_island_5,
+    title: "The Prison Island Adventure",
+    description:
+      "A fascinating journey to Changuu Island, also known as Prison Island. Perfect for history buffs, nature lovers, and those seeking a relaxing day trip, this tour offers a unique blend of cultural heritage and outdoor adventure.  ",
+
+    tour_one_heading: "Scenic Boat Ride",
+    tour_one_description_part_one: `Your adventure begins with a scenic boat ride from Stone Town to Changuu Island. As you cruise across the crystal-clear waters of the Indian Ocean, take in the stunning views of the Zanzibar coastline and the surrounding islands. The boat ride sets the stage for an exciting day of exploration and relaxation.`,
+
+    tour_two_heading: "Historical Exploration",
+    tour_two_description_part_one: `Upon arrival, delve into the rich history of Prison Island. Originally used as a detention center for rebellious slaves, the island later became a quarantine station for those with deadly diseases such as yellow fever. Visit the historical buildings, including the old prison ruins and the quarantine station, and learn about the island's past from knowledgeable guides. Discover how the island has transformed over the years and its significance to Zanzibar’s history.`,
+
+    tour_three_heading: "Giant Tortoise Sanctuary",
+    tour_three_description_part_one: `Giant Tortoise Sanctuary, home to the famous Aldabra giant tortoises. These majestic creatures were introduced to the island in the late 19th century and have since flourished. Some tortoises are over 100 years old and weigh more than 500 pounds. Interact with these gentle giants, learn about their conservation, and take memorable photos.`,
+
+    tour_four_heading: "Island Relaxation",
+    tour_four_description_part_one: `After your activities, take some time to relax on the beautiful beaches of Changuu Island. The soft, white sands and tranquil atmosphere provide the perfect setting for unwinding. Enjoy a leisurely stroll along the beach, bask in the sun, or simply sit back and appreciate the natural beauty of the island.`,
   },
 ];
