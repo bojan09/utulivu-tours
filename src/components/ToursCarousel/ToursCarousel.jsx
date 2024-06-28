@@ -28,9 +28,9 @@ const ToursCarousel = () => {
     <div id="tours" className="carousel-tours">
       <div>
         <Carousel
-          arrows={false}
+          arrows={true}
           swipeable={true}
-          draggable={false}
+          draggable={true}
           showDots={false}
           infinite={true}
           autoPlay={true}

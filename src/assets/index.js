@@ -44,5 +44,21 @@ export { default as safari_6 } from "./destinations-tours/safari/safari_6.jpg";
 export { default as safari_7 } from "./destinations-tours/safari/safari_7.jpg";
 export { default as safari_8 } from "./destinations-tours/safari/safari_8.jpg";
 
+// mnemba
+export { default as mnemba_1 } from "./destinations-tours/mnemba/mnemba_1.jpg";
+export { default as mnemba_2 } from "./destinations-tours/mnemba/mnemba_2.jpeg";
+export { default as mnemba_3 } from "./destinations-tours/mnemba/mnemba_3.webp";
+export { default as mnemba_4 } from "./destinations-tours/mnemba/mnemba_4.jpg";
+export { default as mnemba_5 } from "./destinations-tours/mnemba/mnemba_5.jpg";
+export { default as mnemba_6 } from "./destinations-tours/mnemba/mnemba_6.jpg";
+export { default as mnemba_7 } from "./destinations-tours/mnemba/mnemba_7.jpg";
+
+// rock restaurant
+export { default as rock_1 } from "./destinations-tours/rock-restaurant/rock_1.webp";
+export { default as rock_2 } from "./destinations-tours/rock-restaurant/rock_2.webp";
+export { default as rock_3 } from "./destinations-tours/rock-restaurant/rock_3.webp";
+export { default as rock_4 } from "./destinations-tours/rock-restaurant/rock_4.webp";
+export { default as rock_5 } from "./destinations-tours/rock-restaurant/rock_5.webp";
+
 // about us
 export { default as about__img } from "./about-img.jpg";
